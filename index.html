@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>.
-      %MINIFYHTMLe06cc14e65534965c0166638e521f61b6%
+  <head>
     <meta charset="utf-8" />
     <meta property="fb:app_id" content="1758480784251346" />
     <title>Fun</title>
-    <base href="http://172.17.0.1:8081/"> 
-    <meta http-equiv="refresh" content="0;URL='/'"></meta>
+    <base href="/">
     <link
       href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Open+Sans:400,700"
       rel="stylesheet"
@@ -17,19 +15,6 @@
   <body>
     <div class="container wrapper">
       <app-root></app-root>
-      <script>
-        (function () {
-          // Retrieve the URL the user was trying to access when receiving the 404.
-          var redirect = sessionStorage.redirect;
-          // Remove the URL from sessionStorage.
-          delete sessionStorage.redirect;
-          // Check if we actually need to redirect.
-          if (redirect && redirect != location.href) {
-            // We need to redirect to the URL the user was trying to access.
-            history.replaceState(null, null, redirect);
-          }
-        })();
-      </script>
     </div>
   <script type="text/javascript" src="runtime.06daa30a2963fa413676.js"></script><script type="text/javascript" src="polyfills.f4b78b65941f8063fd57.js"></script><script type="text/javascript" src="main.63820a1177c56281c286.js"></script></body>
 </html>
